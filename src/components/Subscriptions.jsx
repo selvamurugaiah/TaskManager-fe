@@ -19,7 +19,7 @@ const tier = [
   },
   {
     heading: "Plus",
-    perMonth: 1,
+    perMonth: 199,
     feature: [
       "Premium Account",
       "Add Task",
