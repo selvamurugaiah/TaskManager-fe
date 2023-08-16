@@ -1,0 +1,26 @@
+.modal-body {
+  display: flex;
+  flex-direction: column;
+  gap: 20px !important;
+}
+.viewTask_description {
+  font-size: 1rem;
+  opacity: 0.8;
+}
+
+.viewTask_btn {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.viewTask_btn > button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.delete {
+  background-color: rgb(202, 43, 43);
+  color: white;
+}

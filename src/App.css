@@ -1,0 +1,160 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+  background: #2b2c37;
+  overflow: hidden;
+}
+
+.login_formContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: #2b2c37;
+  color: #fff;
+}
+
+.login_formContainer > form {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.fieldBox {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 15px 0;
+  gap: 5px;
+}
+
+.fieldBox > input {
+  outline: none;
+  background-color: #2b2c37;
+  border: 1px solid #828fa3;
+  padding: 5px;
+  border-radius: 3px;
+  color: #fff;
+}
+
+.login_formContainer > form > button {
+  color: #635fc7;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 5px;
+  border: none;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.fieldBox > p {
+  color: red;
+}
+
+.forget_pass {
+  margin: 10px 0;
+}
+
+.forget_form_cont {
+  color: #fff;
+  position: relative;
+  top: 30%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  border-radius: 5px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.forget_form {
+  width: 300px;
+}
+
+.token_form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  gap: 10px !important;
+}
+
+.resetForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 90vh;
+}
+
+.form_changePass {
+  width: 300px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #fff;
+  border-radius: 5px;
+}
+
+.form_changePass > form {
+  width: 100%;
+}
+
+.mobileNav {
+  display: none !important;
+}
+
+@media (max-width: 767px) {
+  .header {
+    border-bottom: 1px solid #3e3f4e;
+  }
+  .title {
+    width: 4rem;
+    border-right: none;
+    border-bottom: none;
+  }
+  .navbar_content_mobile {
+    display: flex;
+    /* border-bottom: 1px solid #3e3f4e; */
+    height: 100%;
+  }
+  .add_Btn_header {
+    padding: 0 1rem;
+    justify-content: center;
+  }
+  .desktop {
+    display: none;
+  }
+  .taskBoard {
+    left: 1rem;
+  }
+  .mobileNav {
+    display: block !important;
+    top: 3.6rem !important;
+  }
+  .mobileNav > .modal-lg {
+    width: 300px !important;
+  }
+  .sideBar_top_title {
+    font-size: 0.8rem !important;
+    color: rgb(203, 199, 199) !important;
+  }
+  .modal-header {
+    border-bottom: none !important;
+  }
+}
+
+.light {
+  background-color: whitesmoke !important;
+  color: black !important;
+}

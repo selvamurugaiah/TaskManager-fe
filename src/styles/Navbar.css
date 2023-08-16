@@ -1,0 +1,83 @@
+.header {
+  display: flex;
+  width: 100%;
+  height: 6rem;
+  background-color: #07375e;
+  align-items: center;
+  color: #f6f9fa;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.title {
+  display: flex;
+  width: 18rem;
+  padding: 2rem 3rem;
+  border-right: 1px solid #101671;
+  border-bottom: 1px solid #3e3f4e;
+  cursor: pointer;
+}
+
+.navbar_content {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+  height: 3rem;
+  align-items: center;
+  border-bottom: 1px solid #4e4e54;
+  height: 100%;
+}
+
+.add_Btn_header {
+  display: flex;
+  justify-content: center;
+  height: auto;
+  background: #e3540c;
+  padding: 0.75rem 1rem;
+  border-radius: 24px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  border: none;
+}
+
+.navbar_content_mobile {
+  display: none;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.launch_mobile {
+  display: flex;
+  align-items: center;
+  border: none;
+  background: none;
+  color: #fff;
+  gap: 5px;
+}
+
+@media (max-width: 767px) {
+  .header {
+    border-bottom: 1px solid #3e3f4e;
+  }
+  .title {
+    width: 4rem;
+    border-right: none;
+    border-bottom: none;
+  }
+  .navbar_content_mobile {
+    display: flex;
+    height: 100%;
+  }
+  .add_Btn_header {
+    padding: 0 1rem;
+    justify-content: center;
+  }
+  .desktop {
+    display: none;
+  }
+}
